@@ -3,8 +3,13 @@ package binaryext
 import errors "github.com/weathersource/go-errors"
 
 var (
+	// ErrOverflow occurs when more bytes are provided than can
+	// be handled by the receiving type.
 	ErrOverflow = errors.NewInvalidArgumentError("Byte count exceeds expectation.")
-	ErrEmpty    = errors.NewInvalidArgumentError("No bytes provided.")
+
+	// ErrEmpty occurs when an empty slice of bytes is received
+	// for writing to a type.
+	ErrEmpty = errors.NewInvalidArgumentError("No bytes provided.")
 )
 
 // putUint encodes a uint64 to []byte.
