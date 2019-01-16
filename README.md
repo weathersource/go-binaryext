@@ -1,5 +1,5 @@
-pkg/binaryext
-=============
+go-binaryext
+============
 
 [![GoDoc](https://godoc.org/github.com/weathersource/go-binaryext?status.svg)](https://godoc.org/github.com/weathersource/go-binaryext)
 [![Go Report Card](https://goreportcard.com/badge/github.com/weathersource/go-binaryext)](https://goreportcard.com/report/github.com/weathersource/go-binaryext)
