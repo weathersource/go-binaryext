@@ -1,9 +1,6 @@
-go-binaryext
-============
+# go-binaryext
 
-[![Build Status](https://travis-ci.com/weathersource/go-binaryext.svg?branch=master)](https://travis-ci.com/weathersource/go-binaryext)
-[![Codevov](https://img.shields.io/codecov/c/github/weathersource/go-binaryext.svg)](https://codecov.io/gh/weathersource/go-binaryext)
-[![Go Report Card](https://goreportcard.com/badge/github.com/weathersource/go-binaryext)](https://goreportcard.com/report/github.com/weathersource/go-binaryext)
+[![CircleCI](https://circleci.com/gh/weathersource/go-binaryext.svg?style=shield)](https://circleci.com/gh/weathersource/go-binaryext)
 [![GoDoc](https://img.shields.io/badge/godoc-ref-blue.svg)](https://godoc.org/github.com/weathersource/go-binaryext)
 
 Package binaryext provides functions that supplement the golang encoding/binary library. In particular, while
