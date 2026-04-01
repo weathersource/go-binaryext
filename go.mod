@@ -1,10 +1,10 @@
 module github.com/weathersource/go-binaryext
 
-go 1.21.0
+go 1.25
 
 require (
 	github.com/stretchr/testify v1.9.0
-	github.com/weathersource/go-errors v1.0.3
+	github.com/weathersource/go-errors v1.0.6
 )
 
 require (
